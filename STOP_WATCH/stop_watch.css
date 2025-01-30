@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    background-color:lightskyblue;
+}
+#myh1{
+    font-size: 60px;
+}
+#display{
+    font-family: monospace;
+    font-size: 50px;
+    color:brown;
+}
+#startbtn{
+    font-size: 25px;
+    background-color: rgb(17, 227, 25);
+    border-radius: 20pc;
+}
+#startbtn:hover{
+    background-color: rgb(17, 200, 25);
+}
+#stopbtn{
+    font-size: 25px;
+    background-color: red;
+    border-radius: 20pc;
+}
+#stopbtn:hover{
+    background-color: rgb(187, 30, 30);
+}
+#resetbtn{
+    font-size: 25px;
+    background-color:rgb(0, 115, 255);
+    border-radius: 20pc;
+}
+#resetbtn:hover{
+    background-color:rgb(0, 120, 200)
+}

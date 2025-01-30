@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>task5</title>
+        <link rel="stylesheet" href="conversions.css"> 
+    </head>
+    <body>
+        <form>
+            <h1>TEMPERATURE CONVERSION</h1>
+            <input type="number" id="textbox" value="0"><br><br>
+
+            <input type="radio" id="toforen" name="unit">
+            <label for="toforen">CELSIUS ➡️ FOHRENHEIT</label><br>
+
+            <input type="radio" id="tocels" name="unit">
+            <label for="tocels">FOHRENHEIT ➡️ CELSIUS</label><br><br>
+
+            <button type="button" onclick="convert()">submit</button>
+
+            <p id="which"></p>
+            <p id="result"></p>
+        </form>
+        <script src="conversions.js"></script>
+    </body>
+</html>

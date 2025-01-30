@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+#mysubmit{
+    background-color: plum;
+    font-size: 30px;
+}
+#mytext{
+    background-color: coral;
+    font-size: 20px;
+}
+#lab{
+    font-size: 20px;
+}
+#resultelement{
+    font-size: 40px;
+}
