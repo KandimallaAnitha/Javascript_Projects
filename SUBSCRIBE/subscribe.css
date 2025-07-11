@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+}
+#mycheckbox{
+    font-size: 50px;
+}
+.mydiv{
+    font-size: 20px;
+    color: brown;
+}
+#mysubmit{
+    color: red;
+    background-color: green;
+    font-size: 20px;
+}
+#subresult{
+    font-size: 30px;
+    color: palevioletred;
+}
+#payment{
+    font-size: 30px;
+    color: cornflowerblue;
+}
