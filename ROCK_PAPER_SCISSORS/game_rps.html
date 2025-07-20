@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>task-9</title>
+        <link rel="stylesheet" href="game_rps.css">
+    </head>
+    <body>
+        <h1>Rock - Paper - Scissors</h1>
+        <div class="choices">
+            <button onclick="playgame('rock')">👊</button>
+            <button onclick="playgame('paper')">✋</button>
+            <button onclick="playgame('scissors')">✌️</button>
+        </div>
+        <div id="playerdisplay">PLAYER:</div><br>
+        <div id="computerdisplay">COMPUTER:</div><br>
+        <div id="resultdisplay"></div>
+
+        <div class="scoredisplay">player score:
+            <span id="playerscoredisplay">0</span>
+        </div><br>
+
+        <div class="scoredisplay">computer score:
+            <span id="computerscoredisplay">0</span>
+        </div>
+        <script src="game_rps.js"></script>
+    </body>
+</html>

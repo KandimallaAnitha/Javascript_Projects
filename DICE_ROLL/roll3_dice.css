@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+#mybutton{
+    font-size: 50px;
+    background-color: chocolate;
+    font-family: verdana;
+    border-radius: 20pc;
+}
+.mylabel{
+    font-size: 50px;
+}
+#label1{
+    color: blue;
+}
+#label2{
+    color: red;
+}
+#label3{
+    color: green;
+}

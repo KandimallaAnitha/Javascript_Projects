@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+}
+#countlab{
+    font-family:Helvetica;
+    font-size: 150px;
+}
+.buttons{
+    background-color: lightblue;
+    padding: 10px 20px;
+    color: red;
+    cursor: pointer;
+    transition: background-color 0.25;
+
+}
+.buttons:hover{
+    background-color: khaki;
+}
